@@ -3,6 +3,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Home from './frontend/Home'
 import CreatePost from './Components/CreatePost';
+import Profilecreation from './Components/Profilecreation';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/signup" element={<Signup />}/>
+        <Route path="/createprofile" element={<Profilecreation />}/>
       </Routes>
     </BrowserRouter>
   );
