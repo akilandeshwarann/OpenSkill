@@ -9,7 +9,7 @@ function Login() {
   return (
     <>
       <form className="login-container">
-        <header>Sign In</header>
+        <header className='header'>Sign In</header>
         <p className="signup-link">
           New User? <Link to="/signup">Create an account</Link>
         </p>

@@ -25,12 +25,12 @@
 }
 
 .input input {
-    font-size: 18px;   /* 👈 bigger font size */
+    font-size: 18px;   
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
-    width: 80%;        /* input takes more space */
+    width: 80%;        
 }
 
 .input input:focus {
